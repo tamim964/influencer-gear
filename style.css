@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #aaaaaa46;
+}
+/* -----------
+   Header start
+-------------- */
+header{
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-right > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-right > ul > li{
+    list-style: none;
+}
+.nav-right > ul > li > a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px; 
+    padding: 10px;
+}
+.fas{
+    margin-right: 10px;
+    padding: 10px;
+}
+/* -----------
+   Header end
+-------------- */
+
+/*-----------
+ container start 
+ ------------*/
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.container-left{
+    width: 60%;
+}
+.container-left h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #3A3A3A;
+}
+.container-left p{
+    width: 80%;
+
+}
+.container-right{
+    width: 40%;
+}
+.container-right img{
+    width: 100%;
+}
+.button1{
+    width: 140px;
+    padding: 10px 0px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+}
+.button1 a{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+
+}
+.fa-arrow-right{
+    margin-right: 0px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+/*------------
+ container end 
+ ------------*/
+.collection{
+    width: 90%;
+    margin: 0 auto;
+}
+.collection-title{
+    text-align: center;
+    color: #3A3A3A;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+ .product{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.product img{
+    width: 100%;
+}
+.product h2{
+    margin-top:0;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 17px;
+    margin: 0;
+}
+
+.product > ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.product > ul > li{
+    list-style: none;
+}
+.fa-star{
+    font-size: 10px;
+    margin: 0px 3px 0px 0px ;
+    padding: 0;
+    color: #FB8200;
+}
+#rating{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.last-para {
+    margin: 0;
+    color: #787885;
+    font-size: 12px;
+}
