@@ -313,10 +313,14 @@ font-size: 12px;
     margin: 10px; 
 
 }
-@media  (max-width: 768px){
-    
+@media all and (max-width: 1001px){
+    .products-button{
+        position: relative;
+        left: 560px;
+        top: 40px;
+    }
 }
-@media  (max-width: 768px){
+@media all and  (max-width: 768px){
     .all-section{
         width: 100%;
         display: flex;
@@ -368,8 +372,8 @@ font-size: 12px;
     }
     .products-button{
         position: relative;
-        left: 75px;
-        top: 200px;
+        left: 100px;
+        top: 230px;
     }
     .top{
         display: grid;
@@ -416,7 +420,7 @@ font-size: 12px;
         font-size: 14px;
     }
 }
-@media (max-width: 480px){
+@media all and (max-width: 480px){
     .all-section{
         width: 100%;
         display: flex;
@@ -511,7 +515,7 @@ font-size: 12px;
     }
 }
 
-@media (max-width: 320px){
+@media all and (max-width: 320px){
     .all-section{
         width: 100%;
         display: flex;
