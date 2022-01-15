@@ -324,7 +324,6 @@ font-size: 12px;
         flex-direction: column;
         margin: 0 auto;
     }
-    .container
     .nav-right{
         display: none;
     }
@@ -364,6 +363,11 @@ font-size: 12px;
     .products{
         grid-template-columns: repeat(2,1fr);    
     }
+    .products-button{
+        position: relative;
+        left: 75px;
+        top: 200px;
+    }
     .top{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -396,7 +400,7 @@ font-size: 12px;
         margin-bottom: 0px;
     }
     .section-last{
-        margin-top: 20px;
+        margin-top: 40px;
     }
     footer h3{
         font-size: 16px;
@@ -451,9 +455,15 @@ font-size: 12px;
     }
     .collection{
         margin-top: 0px;
+        margin-bottom: 0px;
     }
     .products{
         grid-template-columns: repeat(1,1fr);    
+    }
+    .products-button{
+        position: relative;
+        left: 150px;
+        top: 0px;
     }
     .top{
         display: flex;
@@ -483,11 +493,8 @@ font-size: 12px;
     .bottom-ul > li > a{
         font-size: 16px;
     }
-    .collection{
-        margin-bottom: 0px;
-    }
     .section-last{
-        margin-top: 0;
+        margin-top: 20px;
     }
     footer h3{
         font-size: 16px;
@@ -553,9 +560,20 @@ font-size: 12px;
         width: 30px;
         text-align: center;
     }
+    .collection{
+        margin-bottom: 0px;
+    }
     .products{
         grid-template-columns: repeat(1,1fr);
         
+    }
+    .products-button{
+        position: relative;
+        left: 90px;
+        top: 0px;
+    }
+    .section-last{
+        margin-top: 20px;
     }
     .top{
         display: flex;
@@ -575,12 +593,8 @@ font-size: 12px;
     .bottom-ul > li > ul > li > a{
        font-size: 12px;
     }
-    .collection{
-        margin-bottom: 0px;
-    }
-    .section-last{
-        margin-top: 0;
-    }
+    
+    
     footer h3{
         font-size: 14px;
     }
