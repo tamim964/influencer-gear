@@ -313,16 +313,31 @@ font-size: 12px;
     margin: 10px; 
 
 }
-@media all and (max-width: 1001px){
+/* @media (max-width: 935px){
+    .all-section{
+        width: 769px;
+    }
+    
+
     .products-button{
         position: relative;
-        left: 560px;
+        left: 540px; 
+        top: 10px;
+    }
+    footer{
+        width: 100%;
+    }
+} */
+/* @media screen and (min-width: 769px){
+    .products-button{
+        position: relative;
+        left: 450px;
         top: 40px;
     }
-}
-@media all and  (max-width: 768px){
+} */
+/* @media (max-width: 768px){
     .all-section{
-        width: 100%;
+        width: 481px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -372,8 +387,8 @@ font-size: 12px;
     }
     .products-button{
         position: relative;
-        left: 100px;
-        top: 230px;
+        left: 60px;
+        top: 180px;
     }
     .top{
         display: grid;
@@ -419,14 +434,18 @@ font-size: 12px;
         margin-right: 5px;
         font-size: 14px;
     }
-}
-@media all and (max-width: 480px){
-    .all-section{
+    footer{
         width: 100%;
+    }
+}
+@media (max-width: 480px){
+    .all-section{
+        width: 480px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     nav, .container {
         flex-direction: column;
         margin: 0 auto;
@@ -469,7 +488,7 @@ font-size: 12px;
     }
     .products-button{
         position: relative;
-        left: 150px;
+        left: 90px;
         top: 0px;
     }
     .top{
@@ -513,14 +532,18 @@ font-size: 12px;
         margin-right: 5px;
         font-size: 14px;
     }
+    footer{
+        width: 100%;
+    }
 }
 
-@media all and (max-width: 320px){
+@media (max-width: 320px){
     .all-section{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .nav-left h3{
         font-size: 14px;
@@ -600,7 +623,9 @@ font-size: 12px;
     .bottom-ul > li > ul > li > a{
        font-size: 12px;
     }
-    
+    footer{
+        width: 100%;
+    }
     
     footer h3{
         font-size: 14px;
@@ -612,5 +637,16 @@ font-size: 12px;
         margin-right: 5px;
         font-size: 12px;
     }
+} */
+
+@media(max-wdth: 991px) {
+
 }
 
+@media(max-wdth: 767px) {
+    
+}
+
+@media(max-wdth: 575px) {
+    
+}
