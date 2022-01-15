@@ -314,6 +314,9 @@ font-size: 12px;
 
 }
 @media  (max-width: 768px){
+    
+}
+@media  (max-width: 768px){
     .all-section{
         width: 100%;
         display: flex;
@@ -361,11 +364,7 @@ font-size: 12px;
         margin-top: 0px;
     }
     .products{
-        grid-template-columns: repeat(2,1fr);
-        width: 100%;    
-    }
-    .product{
-        width: 30%;
+        grid-template-columns: repeat(2,1fr);  
     }
     .products-button{
         position: relative;
