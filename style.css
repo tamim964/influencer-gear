@@ -243,7 +243,7 @@ section-last start
     
 }
 .fa-question-circle{
-margin-top: 12px;
+    margin-top: 12px;
 }
 .bottom{
     margin-bottom: 0;
@@ -313,7 +313,7 @@ font-size: 12px;
     margin: 10px; 
 
 }
-@media only screen and (max-width: 768px){
+@media  (max-width: 768px){
     .all-section{
         width: 100%;
         display: flex;
@@ -361,7 +361,11 @@ font-size: 12px;
         margin-top: 0px;
     }
     .products{
-        grid-template-columns: repeat(2,1fr);    
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;    
+    }
+    .product{
+        width: 30%;
     }
     .products-button{
         position: relative;
@@ -413,7 +417,7 @@ font-size: 12px;
         font-size: 14px;
     }
 }
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
     .all-section{
         width: 100%;
         display: flex;
@@ -508,7 +512,7 @@ font-size: 12px;
     }
 }
 
-@media only screen and (max-width: 320px){
+@media (max-width: 320px){
     .all-section{
         width: 100%;
         display: flex;
