@@ -80,12 +80,6 @@ header{
 }
 .container-right img{
     width: 100%;
-    transition: transform 1s ease-in;
-
-}
-.container-right img:hover{
-    transform: rotate(360deg);
-    
 }
 .button1{
     width: 140px;
